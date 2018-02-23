@@ -1,0 +1,65 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 970px;
+    background-color: #1D345C;
+    color: #C3D7EB;
+    margin: 0px auto;
+    padding: 10px 0;
+}
+#header {
+    height: 75px;
+    background-color: #CC323A;
+    margin: 0 10px 20px 10px;
+    border-radius: 10px;
+}
+#header h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#navigation{
+    width: 175px;
+    background-color:#2E7D8B;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+#main_content {
+    width: 670px;
+    background-color: #0E1821;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+#main_content * {
+    padding-bottom: 10px;
+}
+#footer {
+    height: 60px;
+    background-color: #5E6672;
+    border-radius: 15px;
+    margin: 20px 10px 0 10px;
+}
+#footer p {
+    padding: 20px 0 0 20px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+a {
+    color: #6FDCDE;
+}
+.code {
+    color: #8091FB;
+}
